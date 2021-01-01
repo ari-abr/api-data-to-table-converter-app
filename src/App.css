@@ -1,10 +1,70 @@
 .App {
   text-align: center;
+color: white;
+background-color: black;
+height: 100vh;
+}
+html {background-color: black}
+h1{
+  font-family: 'Audiowide', cursive;
+}
+a{
+  color: lightblue
+}
+a:hover{
+  color: blue
+}
+button{
+  font-size: medium;
+  padding: 2%;
+  background-color: aliceblue;
+}
+button:hover{
+  background-color: lightblue;
+  cursor: pointer;
+}
+.frame{
+margin-left: 5%;
+margin-right: 5%;
+padding-bottom: 15%!important;
+}
+.info{
+  font-size: smaller;
 }
 
+li{
+  list-style: none;
+}
+ul{
+  text-align: left;
+}
+.menu-table{
+  width: 100%;
+  border-collapse: collapse;
+  align-items: flex-start;
+  display: grid;
+  grid-template: max-content;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 4rem;
+  grid-row-gap: 1rem;
+}
+.menu-table h2{
+  text-align: center!important;
+  font-size: medium;
+  /*border-color: aliceblue;
+  border-top-style: solid;*/
+background: linear-gradient(0deg, rgb(0, 0, 0) 0%, rgba(0,245,212,0.5) 100%);
+}
+.menu-table h2:hover{
+  background: linear-gradient(0deg, rgb(0, 0, 0) 0%, rgb(235, 255, 252) 100%);
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+.search-form, form{
+  display: flex;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -35,4 +95,51 @@
   to {
     transform: rotate(360deg);
   }
+}
+td, thead{
+  font-size: xx-small;
+}
+table{
+  table-layout: fixed!important;
+}
+.results-section{
+  display: flex;
+
+}
+.results-section img{
+  display: block;
+  width: fit-content;
+}
+.col1, .col2{
+  flex: 50%;
+
+}
+.col-1{
+  float: left;
+}
+.col-2{
+float: right;
+}
+tbody{
+  text-align: left;
+}
+table{
+  display: flexbox;
+}
+td{
+  padding: 0.25rem;
+}
+td, th{
+  white-space: pre-line;
+  border-left-style: solid;
+  border-right-style: solid;
+  border-color: white;
+}
+th, td{
+  border-bottom-style: solid;
+  border-color: white;
+}
+.collapsible{
+  color: blue;
+  text-decoration: underline;
 }
