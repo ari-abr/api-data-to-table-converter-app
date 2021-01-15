@@ -2,9 +2,14 @@
 Link: https://ari-abr.github.io/api-data-to-table-converter-app/
 
 ## About
-This app takes in a URL for an API call and gets results from the API call using "fetch". Then it finds the results array inside the results received. Those results go to another component (DisplayResults.js) that display the results received as a table. 
+This app takes in a URL for an API call and gets results from the API call using "fetch". The sample/demo API links are provided. Then it finds the results array inside the results received. Those results go to another component (DisplayResults.js) that display the results received as a table. 
 
 The table allows the user to sort items by increasing or decreasing order and search items in each column. It also allows to download the current data in the table as a CSV or a Text file. 
+
+The sorting algorithm is based on the Selection Sort algorithm. It works in reverse when the items are sorted in decreasing order. 
+
+The searching algorithm is based on Linear Search. The values in each item of the results array get compared to query word. If it matches, that item (row) gets added to the array of items that include query word and get displayed. 
+
 
 # Getting Started with Create React App
 
