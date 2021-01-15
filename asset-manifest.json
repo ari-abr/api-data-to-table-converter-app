@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/astro-app1/static/css/main.72326f1e.chunk.css",
-    "main.js": "/astro-app1/static/js/main.53024c0e.chunk.js",
-    "main.js.map": "/astro-app1/static/js/main.53024c0e.chunk.js.map",
-    "runtime-main.js": "/astro-app1/static/js/runtime-main.facba9be.js",
-    "runtime-main.js.map": "/astro-app1/static/js/runtime-main.facba9be.js.map",
-    "static/js/2.33e0a9f6.chunk.js": "/astro-app1/static/js/2.33e0a9f6.chunk.js",
-    "static/js/2.33e0a9f6.chunk.js.map": "/astro-app1/static/js/2.33e0a9f6.chunk.js.map",
-    "static/js/3.f8031c91.chunk.js": "/astro-app1/static/js/3.f8031c91.chunk.js",
-    "static/js/3.f8031c91.chunk.js.map": "/astro-app1/static/js/3.f8031c91.chunk.js.map",
-    "index.html": "/astro-app1/index.html",
-    "static/css/main.72326f1e.chunk.css.map": "/astro-app1/static/css/main.72326f1e.chunk.css.map",
-    "static/js/2.33e0a9f6.chunk.js.LICENSE.txt": "/astro-app1/static/js/2.33e0a9f6.chunk.js.LICENSE.txt"
+    "main.css": "/api-data-to-table-converter-app/static/css/main.72326f1e.chunk.css",
+    "main.js": "/api-data-to-table-converter-app/static/js/main.53024c0e.chunk.js",
+    "main.js.map": "/api-data-to-table-converter-app/static/js/main.53024c0e.chunk.js.map",
+    "runtime-main.js": "/api-data-to-table-converter-app/static/js/runtime-main.db0d424d.js",
+    "runtime-main.js.map": "/api-data-to-table-converter-app/static/js/runtime-main.db0d424d.js.map",
+    "static/js/2.33e0a9f6.chunk.js": "/api-data-to-table-converter-app/static/js/2.33e0a9f6.chunk.js",
+    "static/js/2.33e0a9f6.chunk.js.map": "/api-data-to-table-converter-app/static/js/2.33e0a9f6.chunk.js.map",
+    "static/js/3.f8031c91.chunk.js": "/api-data-to-table-converter-app/static/js/3.f8031c91.chunk.js",
+    "static/js/3.f8031c91.chunk.js.map": "/api-data-to-table-converter-app/static/js/3.f8031c91.chunk.js.map",
+    "index.html": "/api-data-to-table-converter-app/index.html",
+    "static/css/main.72326f1e.chunk.css.map": "/api-data-to-table-converter-app/static/css/main.72326f1e.chunk.css.map",
+    "static/js/2.33e0a9f6.chunk.js.LICENSE.txt": "/api-data-to-table-converter-app/static/js/2.33e0a9f6.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.facba9be.js",
+    "static/js/runtime-main.db0d424d.js",
     "static/js/2.33e0a9f6.chunk.js",
     "static/css/main.72326f1e.chunk.css",
     "static/js/main.53024c0e.chunk.js"
